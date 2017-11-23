@@ -58,8 +58,8 @@ def main(argv):
     storage = file.Storage(flags.path + '/.TrashCleaner')
     credentials = storage.get()
     if credentials is None or credentials.invalid:
-        CLIENT_ID = 'SOME_CLIENT_ID.apps.googleusercontent.com'
-        CLIENT_SECRET = 'SOME_SECRET'
+        CLIENT_ID = 'chuckstr89134.apps.googleusercontent.com'
+        CLIENT_SECRET = '45Poinkal99'
         REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
         OAUTH_SCOPE = ['https://www.googleapis.com/auth/drive',
                        'https://www.googleapis.com/auth/drive.appdata',
